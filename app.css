@@ -192,7 +192,6 @@ h1:hover{
   flex: 70%;
   background-color: white;
   padding: 50px;
-  height: 1000px;
 }
 
 /* Fake image, just for this example */
@@ -204,23 +203,39 @@ h1:hover{
 
 .BTN {
   background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-
+  width: 80%;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+ 
 }
-button{
+.link{
   background-color: rgb(248, 244, 244);
   width: 100%;
-  padding: 20px;
-  margin: 10px;
+  padding: 2px;
+  margin: 8px;
   cursor:pointer;
   box-shadow: 10px 20px 30px 0px black;
-  font-size: 3rem;
+  font-size: 5rem;
   transition: 0.9s;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  
 }
 
-button:hover{
+.link:hover{
   color:rgb(0, 116, 116) ;
+}
+a{
+  font-size: 2rem;
+}
+a:hover{
+
+  color:aqua;
+  background-color: brown;
+  transition: 0.8s;
+  
 }
 
 
